@@ -5,6 +5,107 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"/>
 <title>Sinewave inverter</title>
   <style>
+	  *{
+  box-sizing: border-box;
+}
+a:link {
+ padding: 15px 15px;
+ text-align: center;
+ text-decoration:none;
+ display: inline-block;
+ box-sizing:border-box;
+}
+a:visited{
+ color: #EBEDEF; 
+}
+/* change the link color on hover */
+#navbar a:hover {
+ background-color:black;
+ color:red;
+ border-radius:1px;
+ box-sizing:border-box;
+}
+#navbar {
+ display: flex;
+ width:97%;
+ margin-left: 10px;
+ text-align: center;
+ background-color:red;
+ font-display:white;
+ text-align:left;
+ padding:1px;
+ position:fixed;
+ display:block;
+ font-size: 22px;
+}
+
+
+
+#nav-list {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  color: red;
+}
+.heading{
+  text-align: none;
+  width :90%;
+  padding: 0px 0px;
+  display: inline-block;
+  max-height: 80%;
+
+  margin-left: 5%;
+  font-size: 35px;
+  color: #181818;
+  line-height: 0.9;
+}
+
+
+vl{
+  border-left: 10px solid black;
+  color: black;
+  font-size: 30px;
+}
+.fa-user{
+  color: black;
+  align-items: right;
+  justify-self: right;
+}
+
+input[type=search] {
+  border: 1px solid #000;
+  padding: 4px 12px;
+  border-radius: 8px;
+}
+
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+.dropdown-content a {
+  color: black;
+  padding: 8px 0px;
+  margin-top: 15px 10px;
+  text-decoration: none;
+  display: block;
+}
+.dropdown-content a:hover {background-color: #f1f1f1}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
+}
     .products{
 	display:flex;
 	justify-content:space-between;
